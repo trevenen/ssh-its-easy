@@ -15,7 +15,7 @@ python -c "import os.path; print(os.path.isfile('/root/.ssh/id_rsa.pub'))"
 If keys exist might want to use different path or user. Change PRIV_SSH_* as needed.
 
 Usage:
-python create_keys.py -uroot -sip/fqdn 
+python sshleazy.py -uroot -sip/fqdn 
 
 '''
 PRIV_SSH_DIR = '/root/.ssh'
